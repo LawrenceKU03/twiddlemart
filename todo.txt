@@ -1,0 +1,17 @@
+
+--- add slider to article detail page desktop version -- DONE
+--- add cursor pointer to utils tabs -- DONE
+--- add slider to categories desktop version -- DONE
+--- add cursor pointer to utils tabs -- DONE
+--- fix bugs in categories mobile/desktop version pages -- DONE
+--- understand react key prop importance -- DONE
+--- finish coding sign up/login pages -- DONE
+--- fix auto logout bug -- DONE
+--- add objectFit:cover to all images on frontend -- DONE
+--- fix height issue on all mobile devices -- OMO DONISH
+--- fix infinite scroll issue on articles area
+--
+
+--- frontend codebase estimated lines of code 15k+
+--- backend codebase estimated lines of code ?
+

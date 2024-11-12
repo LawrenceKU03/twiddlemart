@@ -1,0 +1,99 @@
+
+.wave{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 233px;
+	background:#0ea5e9;
+}
+
+.shape_fill {
+    fill: #fff;
+	height:50px;
+	transition:0.3s;
+	transition-delay:0.4s;
+}
+
+.shape_fill_dm{
+	fill:#000;
+	transition:0.3s;
+	transition-delay:0.4s;
+}
+
+.fill_container{
+	min-height:100px;
+	position:relative;
+	background:#fff;
+}
+
+.filler_container_dm{
+	min-height:60px;
+	position:relative;
+	background:#000;
+	transition:0.3s;
+	transition-delay:0.4s;
+}
+
+
+.filler_container_wm{
+	min-height:60px;
+	position:relative;
+	background:#fff;
+	transition:0.3s;
+	transition-delay:0.4s;
+}
+
+
+.wave2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	margin-top:-3px;
+	height:200px;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 195px;
+}
+
+.shape_fill2{
+    fill: #0EA5E9;
+}
+
+
+.wave3{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	height:200px;
+    transform: rotate(180deg);
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 364px;
+}
+
+.shape_fill3 {
+    fill: #000000;
+}

@@ -1,0 +1,56 @@
+.main_article_container {
+	width: 100%;
+	padding:8px 20px;
+}
+
+.main_article_container h1 {
+	width: 100%;
+	font-family: "Roboto";
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 12px 0px;
+}
+
+.image_container {
+	width: auto;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px 0px;
+	border-radius: 4px;
+}
+
+
+.main_article_container p {
+	width: 100%;
+	font-family: "Open Sans";
+	padding: 8px 0px;
+	font-size:15px;
+}
+
+.utils_container {
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px 0px;
+}
+
+.utils_container div{
+	display:flex;
+	align-items:center;
+}
+
+.utils_container div p{
+	margin-right:10px;
+	font-family:"Pacifico";
+}
+
+.utils_container div:nth-child(1) i{
+	color:#cf1733;
+}
+
+.utils_container div:nth-child(2) i{
+	color:#0ea5e9;
+}
+
+

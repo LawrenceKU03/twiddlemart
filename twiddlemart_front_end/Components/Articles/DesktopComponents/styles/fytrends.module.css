@@ -1,0 +1,47 @@
+.main_trends_container {
+  background: #fff;
+  height: 80%;
+  width: 20%;
+  margin: 0px 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  position: relative;
+  top: -7.6%;
+}
+
+.main_trends_container_dm {
+  background: #000;
+  height: 80%;
+  width: 20%;
+  margin: 0px 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 8px rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  position: relative;
+  top: -7.6%;
+}
+
+.sign_tab {
+  background: #0ea5e9;
+  color: #fff;
+  padding: 8px 4px;
+  font-family: "Pacifico";
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 4px 4px 0px 0px;
+  text-align: center;
+}
+
+.main_article_container {
+  margin: 14px 8px;
+  box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
+  font-weight: 800;
+  padding: 14px 8px;
+  border-radius: 3px;
+  color: #fff;
+}

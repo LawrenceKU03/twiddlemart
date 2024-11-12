@@ -1,0 +1,71 @@
+.wave {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 240px;
+}
+
+.shape_fill {
+  fill: #ffffff;
+}
+
+.main_container {
+  margin: auto auto;
+  padding: 40px 20px;
+}
+
+.main_container h1 {
+  font-family: "Roboto";
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.main_container h1 span {
+  margin: 0px 4px;
+  position: relative;
+}
+
+.main_container h1 span {
+  color: #0ea5e9;
+}
+
+.main_container h1 span:nth-child(2) {
+  top: 15px;
+  color: #000;
+}
+
+.main_container h2 {
+  font-family: "Pacifico";
+  margin: 8px 2px;
+}
+
+.fix_container h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.fix_container p {
+  font-family: "Pacifico";
+  margin: 8px 2px;
+}
+
+.button {
+  background: #000;
+  font-family: "Roboto";
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 20px 0px;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-15px) scale(0.8,1.2);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0) scale(1.2,0.8);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate_bounce{
+  animation:bounce 0.8s infinite;
+}
+
+

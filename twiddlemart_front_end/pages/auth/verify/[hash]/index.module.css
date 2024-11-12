@@ -1,0 +1,140 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+
+/*----- MAIN VERIFICATION CONTAINER DARK MODE/LIGHT MODE ----*/
+/*--- LIGHT MODE ---*/
+.main_verify_container {
+  width: 40%;
+  background: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  padding-bottom: 30px;
+}
+
+.main_verify_container hr {
+  margin: 20px auto;
+  width: 100%;
+}
+
+/*--- DARK MODE ---*/
+.main_verify_container_dm {
+  width: 40%;
+  background: #000;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.main_verify_container_dm hr {
+  margin: 20px auto;
+  width: 100%;
+}
+
+/*-- TITLE CONTAINER LIGHT MODE/DARK MODE ---*/
+
+/*--- LIGHT MODE-----*/
+.title_container h1 {
+  color: #0ea5e9;
+  font-family: "pacifico";
+  font-size: 25px;
+}
+
+.title_container span {
+  color: #000;
+}
+
+/*--- DARK MODE-----*/
+.title_container_dm h1 {
+  color: #0ea5e9;
+  font-family: "pacifico";
+  font-size: 25px;
+}
+
+.title_container_dm span {
+  color: #000;
+}
+
+.status_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status_container h1 {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.status_container p {
+  font-family: "Open Sans";
+}
+
+.status_container i {
+  font-size: 45px;
+  color: #cf1733;
+}
+
+.wave {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 175px;
+  transform: rotateY(180deg);
+}
+
+.shape_fill {
+  fill: #000;
+}
+
+@media (max-width: 720px) {
+  .main_verify_container {
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+    transition: 0.3s;
+    text-align: center;
+    margin: 10px;
+  }
+
+  /*--- DARK MODE ---*/
+  .main_verify_container_dm {
+    width: 80%;
+    height: 80%;
+    background: #000;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    transition: 0.3s;
+    color: #fff;
+  }
+
+  .status_container {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .status_container div {
+    margin-bottom: 10px;
+  }
+}

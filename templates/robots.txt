@@ -1,0 +1,11 @@
+User-agent:*
+
+Disallow:/admin
+Disallow:/dashboard
+Disallow:/store
+Disallow:/search
+ 
+Disallow:/api/
+
+Sitemap:https://twiddlemart.com/sitemap.xml
+

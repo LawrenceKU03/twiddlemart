@@ -1,0 +1,156 @@
+.main_container {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.main_container_dm {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 5px 4px rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.image_container {
+  overflow: hidden;
+  width: 280px;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.image_container span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-family: "Pacifico";
+  font-size: 25px;
+}
+.info_container {
+  margin-left: 30px;
+  width: 250px;
+  padding: 10px;
+}
+
+.info_container h1 {
+  font-family: "Roboto";
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.ratings_container {
+  display: flex;
+  margin: 8px;
+}
+
+.ratings_container div p {
+  font-family: "Pacifico";
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.ratings_container div i {
+  font-size: 20px;
+}
+
+.ratings_container div:nth-child(1) {
+  margin-right: 15px;
+}
+
+.mcontainer_1 {
+  display: flex;
+}
+
+.btn_container {
+  width: 100%;
+  background: #000;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  font-weight: 800;
+  box-shadow: 0 5px 12px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  cursor: pointer;
+}
+
+.share_container {
+  width: 100%;
+  background: #000;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13.5px 13px;
+  box-shadow: 0 5px 12px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 800;
+  margin-left: 2px;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  cursor: pointer;
+}
+
+.btn_container_dm {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  font-weight: 800;
+  box-shadow: 0 5px 12px 6px rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  cursor: pointer;
+}
+
+.share_container_dm {
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+  color: #000;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13.5px 13px;
+  box-shadow: 0 5px 12px 6px rgba(255, 255, 255, 0.1);
+  font-weight: 800;
+  margin-left: 2px;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .mcontainer_1 {
+    display: block;
+  }
+
+  .main_container,
+  .main_container_dm {
+    top: 200px;
+  }
+}

@@ -1,0 +1,74 @@
+.stats_main_container{
+	width:200px;
+	background:#fff;
+	margin:10px;
+	border-radius:4px;
+	height:200px;
+	text-align:center;
+	box-shadow:0 0 12px 8px rgba(0,0,0,0.1);
+	overflow:hidden;
+	transition:0.3s;
+	transition-delay:0.5s;
+	margin-top:30px;
+}
+
+
+.stats_main_container_dm{
+	width:200px;
+	background:#000;
+	margin:10px;
+	border-radius:4px;
+	height:200px;
+	text-align:center;
+	box-shadow:0 0 12px 8px rgba(255,255,255,0.1);
+	overflow:hidden;
+	transition:0.3s;
+	transition-delay:0.5s;
+	margin-top:30px;
+}
+
+.sign_tab{
+	background:#0ea5e9;
+	color:#fff;
+	padding:8px 4px;
+	font-family:"Pacifico";
+	margin-bottom:20px;
+	font-size:24px;
+}
+
+.stats_container div{
+	margin:8px 10px;
+	padding:4px 2px;
+	text-align:left;
+	font-family:"Pacifico";
+	transition:0.3s;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.stats_container div h2{
+	margin-left:10px;
+}
+
+.stats_container_dm div{
+	margin:8px 10px;
+	padding:4px 2px;
+	text-align:left;
+	color:#000;
+	font-family:"Pacifico";
+	transition:0.3s;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.stats_container_dm div h2{
+	margin-left:10px;
+	color:#fff;
+	text-transform:capitalize;
+}
+
+.stats_container_dm div i{
+	color:#fff;
+}

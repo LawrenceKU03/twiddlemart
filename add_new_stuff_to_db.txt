@@ -1,0 +1,12 @@
+
+
+#########  1  #########
+
+add the field then makemigrations -> migrate
+
+########   2  ########
+
+if linked to other models/tables first add when making migrations
+if using oneoff field *MAKE SURE YO USE AN EXISTING MODELS INSTANCE ID IN THE DB*
+
+

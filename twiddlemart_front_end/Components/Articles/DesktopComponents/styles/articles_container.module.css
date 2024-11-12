@@ -1,0 +1,66 @@
+.main_articles_container {
+  height: 95%;
+  width: 49%;
+  background: rgba(255, 255, 255, 1);
+  margin: 20px 10px;
+  box-shadow: 0 0 12px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+
+.main_articles_container_dm {
+  height: 95%;
+  width: 49%;
+  margin: 20px 10px;
+  box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+
+.infinte_scroll {
+  padding: 0;
+  margin: 0;
+}
+
+.infinte_scroll_dm {
+  padding: 0;
+  margin: 0;
+}
+
+.infinite_scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.infinite_scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  position: relative;
+  right: -20px;
+}
+
+.infinite_scroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background: #0ea5e9;
+}
+
+.infinite_scroll_dm::-webkit-scrollbar {
+  width: 6px;
+}
+
+.infinite_scroll_dm::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px 5px rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.infinite_scroll_dm::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background: #0ea5e9;
+}

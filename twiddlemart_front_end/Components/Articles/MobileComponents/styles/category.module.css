@@ -1,0 +1,137 @@
+.categories_main_container{
+	background:#fff;
+	position:relative;
+	box-shadow:0 0 12px 8px rgba(0,0,0,0.1);
+	transition:0.3s;
+	transition-delay:0.4s;
+	position:sticky;
+
+}
+
+.categories_main_container_dm{
+	background:#000;
+	position:relative;
+	box-shadow:0 0 12px 8px rgba(255,255,255,0.1);
+	transition:0.3s;
+	transition-delay:0.4s;
+	position:sticky;
+}
+
+
+.category_item{
+	box-shadow:0 2px 12px 2px rgba(0,0,0,0.1);
+	text-transform:uppercase;
+	border-radius:30px;
+	display:flex;
+	padding:6px 20px;
+	white-space:nowrap;
+	justify-content:center;
+	font-size:13px;
+	margin-right:20px;
+	font-weight:800;
+}
+
+.category_item h1{
+	opacity:0.5;
+}
+
+.category_item:nth-child(1){
+	box-shadow:none;
+}
+
+.category_item:last-child{
+	box-shadow:none;
+}
+
+.category_items_container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	overflow-x:scroll;
+	padding:14px 6px;
+}
+
+.category_items_container::-webkit-scrollbar{
+	display:none;
+
+}
+
+
+.category_items_container_dm{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	overflow-x:scroll;
+	padding:14px 6px;
+	color:#fff;
+}
+
+.category_items_container_dm::-webkit-scrollbar{
+	display:none;
+}
+
+
+.category_item_dm{
+	box-shadow:0 2px 12px 2px rgba(255,255,255,0.1);
+	text-transform:uppercase;
+	border-radius:30px;
+	display:flex;
+	padding:6px 20px;
+	white-space:nowrap;
+	justify-content:center;
+	font-size:13px;
+	margin-right:20px;
+	font-weight:800;
+}
+
+.category_item_dm h1{
+	opacity:0.5;
+}
+
+.category_item_dm:nth-child(1){
+	box-shadow:none;
+}
+
+.category_item_dm:last-child{
+	box-shadow:none;
+}
+
+.category_items_container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	overflow-x:scroll;
+	padding:10px 6px;
+}
+
+.category_item_tapped{
+	background:#0ea5e9;
+	color:#fff;
+	box-shadow:0 2px 12px 2px rgba(14, 165, 233,0.4);
+	text-transform:uppercase;
+	border-radius:30px;
+	display:flex;
+	padding:6px 20px;
+	white-space:nowrap;
+	justify-content:center;
+	font-size:13px;
+	margin-right:20px;
+	font-weight:800;
+
+
+}
+
+.category_item:hover h1{
+	opacity:1;
+}
+
+
+.category_item_dm:hover{
+	background:#0ea5e9;
+	color:#fff;
+	box-shadow:0 2px 12px 2px rgba(14, 165, 233,0.4);
+}
+
+.category_item_dm:hover h1{
+	opacity:1;
+}

@@ -1,0 +1,73 @@
+.wave1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	background:#0ea5e9;
+}
+
+.wave1 svg {
+	position: relative;
+	display: block;
+	width: calc(140% + 1.3px);
+	height: 223px;
+}
+
+.wave1_shapefill {
+	fill: #ffffff;
+	transition:0.3s;
+	transition-delay:0.4s;
+}
+
+.wave1_shapefill_dm {
+	fill: #000;
+	transition:0.3s;
+	transition-delay:0.4s;
+
+}
+
+
+.wave2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 296px;
+}
+
+.wave2_shapefill {
+    fill: #0ea5e9;
+}
+
+
+.wave3 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 193px;
+    transform: rotateY(180deg);
+}
+
+.wave3_shapefill {
+    fill: #000;
+}

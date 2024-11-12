@@ -1,0 +1,193 @@
+.wave1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+	margin-top:20px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	background:#fff;
+	transition-delay:0.4s;
+	transition:0.3s;
+	padding-top:30px;
+}
+
+.wave1_dm {
+    position: relative;
+    bottom: 0;
+    left: 0;
+	margin-top:20px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	background:#000;
+	transition-delay:0.4s;
+	transition:0.3s;
+	padding-top:30px;
+	top:-20px;
+}
+
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 212px;
+    transform: rotateY(180deg);
+}
+
+
+.wave1_dm svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 212px;
+    transform: rotateY(180deg);
+}
+
+.wave1_shape_fill {
+    fill: #0ea5e9;
+}
+
+
+.wave2 {
+    position: relative;
+    left: 0;
+	top:0;
+    width: 100%;
+    overflow: hidden;
+	margin-bottom:40px;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 200px;
+	background:#fff;
+}
+
+.wave2_shape_fill {
+    fill: #0ea5e9;
+}
+
+
+.wave2_dm {
+    position: relative;
+    top:-20px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+	margin-bottom:40px;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2_dm svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 200px;
+	background:#fff;
+}
+
+.wave3 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	margin-top:60px;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(184% + 1.3px);
+    height: 215px;
+}
+
+.wave3_shape_fill {
+    fill: #000;
+}
+
+
+.main_container{
+	width:100%;
+	height:95%;
+	position:absolute;
+	z-index:10;
+	top:0px;
+	margin:4px 0px;
+}
+
+
+/*------- PRODUCT CONTAINER STYLES ------*/
+.product_container{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	width:65%;
+	height:95%;
+	overflow-y:scroll;
+	border-radius:5px;
+	background:#fff;
+	padding:8px 14px;
+	transition:0.3s;
+	transition-delay:0.4s;
+	box-shadow:0 0 5px 4px rgba(0,0,0,0.1);
+}
+
+.product_container::-webkit-scrollbar{
+	width:6px;
+}
+
+.product_container::-webkit-scrollbar-track{
+	border-radius:3px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+.product_container::-webkit-scrollbar-thumb{
+	width:2px;
+	background:#0ea5e9;
+	border-radius:5px;
+	margin:0 3px;
+}
+
+
+.product_container_dm{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	width:65%;
+	height:95%;
+	overflow-y:scroll;
+	border-radius:5px;
+	background:#000;
+	padding:8px 14px;
+	transition:0.3s;
+	transition-delay:0.4s;
+	box-shadow:0 0 5px 4px rgba(255,255,255,0.1);
+}
+
+.product_container_dm::-webkit-scrollbar{
+	width:6px;
+}
+
+.product_container_dm::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+.product_container_dm::-webkit-scrollbar-thumb{
+	width:2px;
+	background:#0ea5e9;
+	border-radius:5px;
+	margin:0 3px;
+}
+
+
