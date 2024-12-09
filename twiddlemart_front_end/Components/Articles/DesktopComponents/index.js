@@ -558,7 +558,7 @@ const DesktopMiniArticlesContainer = ({ articles }) => {
   //use useEffect hook to track for changes
   useEffect(() => {
     //set infinite scroll component height to 50% of device screen height
-    setContainerHeight(window.innerHeight * 0.79);
+    setContainerHeight(window.innerHeight * 0.9);
     const scrollComponent = document.querySelector("#scrollComponent");
     //set default scroll position top:0
     scrollComponent.scrollTo({

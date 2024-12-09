@@ -652,7 +652,9 @@ const PartnersContainer = ({ partners }) => {
 };
 const FootNavbar = () => {
   //declare variables
-  const { tempCurrentPage, isdarkMode } = useSelector((state) => state.Navbar);
+  const { tempCurrentPage, isdarkMode, isactiveStore } = useSelector(
+    (state) => state.Navbar
+  );
   const router = useRouter();
 
   const dispatch = useDispatch();
@@ -761,7 +763,7 @@ const FootNavbar = () => {
           <b>*Disclaimer</b>:we may get commission off some affliate links
         </h1>
       </div>
-      {partners[0] && (
+      {partners[0] && isactiveStore && (
         <div>
           <hr />
           <PartnersContainer partners={partners} />
@@ -777,7 +779,7 @@ const FootNavbar = () => {
         }}
       >
         <p>
-          <b>© 2023 Twiddlemart</b>,all rights reserved.
+          <b>© 2025 Twiddlemart</b>,all rights reserved.
         </p>
         <p>
           <a

@@ -641,6 +641,7 @@ const ArticleDetailDesktopContainer = ({ article }) => {
             <Image
               src={article.cover_photo_url}
               style={{ objectFit: "cover" }}
+              alt={article.title}
               layout="fill"
             />
           </div>
