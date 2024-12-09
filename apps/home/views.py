@@ -106,7 +106,7 @@ def send_Email(user):
     timestamp=str(datetime.now())[10:]
     timestamp=timestamp.replace(":","")[:7].replace(" ","")+str(datetime.now())[:10].split("-")[1]
     
-    html_content=render_to_string("verify.html",{"user":user,"user_hash":str(encrypted_username),"domain_name":settings.MAIN_WEBSITE_URL,"user_id":f"{user.id}{timestamp}"})
+    html_content=render_to_string("verify.html",{"user":user,"user_hash":str(encrypted_username),"domain_name":settings.MAIN_WEBSITE_EMAIL_URL,"user_id":f"{user.id}{timestamp}"})
     to=[settings.EMAIL_HOST_USER,user.email]
     string_content=""
     EmailHandler(to,header,string_content,html_content).send_mail()
