@@ -1,7 +1,7 @@
 import styles from "./utils.module.css";
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
-export const BASE_API_URL = "http://45.4.172.49:8000/";
+export const BASE_API_URL = "http://twiddlemart.com/backend";
 
 export const BlockLoader = () => {
   return (

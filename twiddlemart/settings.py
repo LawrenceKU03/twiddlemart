@@ -27,8 +27,7 @@ SECRET_KEY = 'django-insecure-%x)e-v(mq@*j092pro*jtou)si!o3r!_w_p2dz)pi1!h_6^h4r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1",
-                 "backendservers","45.4.172.49","server.twiddlemart.com"]
+ALLOWED_HOSTS = ["*","backend_cluster"]
 
 APPEND_SLASH = True
 
@@ -98,14 +97,9 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:8080",
-    "http://localhost:8000",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:8080",
-    "http://backendservers",
-    "http://45.4.172.49:3000",
-        "http://45.4.172.49:8000",
-    "http://45.4.172.49:8080",
-    "http://45.4.172.49"
+    "http://0.0.0.0:8000",
+    "http://0.0.0.0:3000",
+    "http://0.0.0.0:8080",
 
 
 ]
@@ -172,7 +166,7 @@ PAGE_SIZE = 3
 
 DOMAIN_URL = "http://45.4.172.49:8000"
 MAIN_WEBSITE_URL = "http://45.4.172.49:8000"
-MAIN_WEBSITE_EMAIL_URL="http:P//45.4.172.49"
+MAIN_WEBSITE_EMAIL_URL="http://45.4.172.49"
 
 SALT_STRING = "twiddlemart user hashstring"
 
