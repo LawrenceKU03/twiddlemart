@@ -82,7 +82,7 @@ class ArticleSerializer(serializers.ModelSerializer):
         return settings.DOMAIN_URL+obj.cover_photo.url
 
     def get_snippet(self, obj):
-        return obj.desc[:155]+"..."
+        return obj.desc[:150]+"..."
 
     def get_hearts(self, obj):
         hearts = len(Heart.objects.filter(article=obj))

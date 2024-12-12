@@ -34,7 +34,9 @@ const SEOHeader = ({ page_title, meta_desc, canonical_url }) => {
         </title>
         <meta
           name="description"
-          content={`${page_title ? page_title.toLowerCase() :""},${meta_desc}`}
+          content={`${
+            page_title ? page_title.toLowerCase() : ""
+          },${meta_desc.slice(0, 150)}`}
         />
       </Head>
     </div>
