@@ -511,6 +511,7 @@ const ArticleDetailMobileContainer = ({ article }) => {
   return (
     //main article detail container
     <div
+    itemscope itemtype="https://schema.org/Article"
       className={isdarkMode ? styles.main_container_dm : styles.main_container}
     >
       {/* article main body container */}
@@ -522,6 +523,7 @@ const ArticleDetailMobileContainer = ({ article }) => {
             layout="fill"
             alt={article.title}
             style={{ objectFit: "cover" }}
+    itemprop="image"
           />
         </div>
 
@@ -580,7 +582,7 @@ const ArticleDetailMobileContainer = ({ article }) => {
 
       {/* article main body info container */}
       <div className={styles.info_container}>
-        <h1>{article.title}</h1>
+        <h1 itemprop="headline"><b>{article.title}</b></h1>
         <p>{parser(article.desc)}</p>
       </div>
 

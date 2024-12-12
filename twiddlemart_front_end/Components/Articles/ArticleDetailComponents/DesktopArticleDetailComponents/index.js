@@ -629,6 +629,7 @@ const ArticleDetailDesktopContainer = ({ article }) => {
 
       {/* main article info body container */}
       <div
+    itemscope itemtype="https://schema.org/Article"
         className={
           isdarkMode
             ? styles.main_info_container_dm
@@ -639,6 +640,7 @@ const ArticleDetailDesktopContainer = ({ article }) => {
         <div className={styles.head_container}>
           <div className={styles.image_container}>
             <Image
+    itemprop="image"
               src={article.cover_photo_url}
               style={{ objectFit: "cover" }}
               alt={article.title}
@@ -649,7 +651,7 @@ const ArticleDetailDesktopContainer = ({ article }) => {
 
         {/* main article body container */}
         <div className={styles.info_container}>
-          <h1>{article.title}</h1>
+          <h1 itemprop="headline"><b>{article.title}</b></h1>
           <p>{parser(article.desc)}</p>
         </div>
 
