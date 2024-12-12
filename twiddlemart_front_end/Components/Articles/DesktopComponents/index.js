@@ -177,7 +177,7 @@ const DesktopFYTrends = () => {
     >
       {/* sign tab container -_- */}
       <div className={fytrends_styles.sign_tab}>
-        <h1>Trending</h1>
+        <h2>Trending</h2>
       </div>
       {/* trends article item */}
       <div>
